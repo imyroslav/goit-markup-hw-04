@@ -231,9 +231,11 @@ a {
         background-size: cover;
     background-color: #2E2F42;
     background-repeat: no-repeat;
+    background-position: center;
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+    margin: o auto;
 }
 
 .section-first-title {
