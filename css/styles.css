@@ -82,7 +82,7 @@ a {
 
 .page-title {
     color: #FFFF;
-    background:#2E2F42;
+    /* background:#2E2F42; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -187,7 +187,12 @@ a {
 }
 
 .section-first {
-    background-color: #2E2F42;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ), 
+        url("/images/hero/people-office.jpg");
     padding-top: 188px;
     padding-bottom: 188px;
 }
