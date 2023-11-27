@@ -117,6 +117,31 @@ a {
     padding: 24px 0;
 }
 
+.nav-link-studio {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.nav-link-studio::before {
+    content: '';
+}
+
+.nav-link-studio::after {
+    display: block;
+   
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: #404BBF;
+    content: ''
+}
+
 .nav-link:hover {
     color: #404BBF;
     font-family: Roboto;
@@ -193,6 +218,9 @@ a {
         rgba(46, 47, 66, 0.7)
         ), 
         url("/images/hero/people-office.jpg");
+        background-size: cover;
+        background-position: center;
+    background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
 }
