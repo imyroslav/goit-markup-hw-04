@@ -451,6 +451,11 @@ a {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-text {
     color: #F4F4FD;
     letter-spacing: 0.02em;
