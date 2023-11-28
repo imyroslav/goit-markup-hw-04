@@ -456,6 +456,34 @@ a {
     align-items: baseline;
 }
 
+.footer-container-lote {
+    margin-right: 120px;
+}
+
+.footer-container-sm {
+
+}
+
+.footer-container-sm-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.ooter-container-sm-li {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-container-sm-liel {
+    width: 40px;
+    height: 40px;
+}
+
 .footer-text {
     color: #F4F4FD;
     letter-spacing: 0.02em;
