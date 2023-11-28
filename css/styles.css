@@ -69,7 +69,6 @@ a {
     justify-content: center;
     align-items: center;
     gap: 48px;
-    max-width: 1440px;
 }
 
 .container {
@@ -234,6 +233,7 @@ a {
     background-position: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
 }
 
 .section-first-title {
