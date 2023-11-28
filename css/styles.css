@@ -140,7 +140,7 @@ a {
 .nav-link-studio::after {
     display: block;
     position: absolute;
-    left 0;
+    left: 0;
     bottom: -1px;
     width: 48px;
     height: 4px;
