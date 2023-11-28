@@ -69,6 +69,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 48px;
+    max-width: 1440px;
 }
 
 .container {
@@ -283,6 +284,18 @@ a {
 .section-second-list-el {
     width: calc((100% - 72px) / 4);
 
+}
+
+.section-second-list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 64px;
+    height: 64px;
 }
 
 .section-third {
