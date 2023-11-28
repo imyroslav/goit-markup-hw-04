@@ -156,7 +156,7 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .nav-link:focus {
@@ -214,11 +214,11 @@ a {
 }
 
 .button:hover {
-    background: var(--OCEAN, #404BBF);
+    background: #404BBF;
 }
 
 .button:focus {
-    background: var(--OCEAN, #404BBF);
+    background: #404BBF;
 }
 
 .section-first {
@@ -234,8 +234,6 @@ a {
     background-position: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1440px;
-    margin: o auto;
 }
 
 .section-first-title {
