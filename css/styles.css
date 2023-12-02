@@ -433,9 +433,9 @@ a {
     overflow: hidden;
 }
 
-.section-fourth-list-el:hover .portfolio-card-pic-text {
+/* .section-fourth-list-el:hover .portfolio-card-pic-text {
     transform: translateY(0);
-}
+} */
 
 .portfolio-card-pic-text {
     position: absolute;
@@ -463,7 +463,7 @@ a {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-card-link:hover:hover .portfolio-card-pic-text {
+.portfolio-card-link:hover .portfolio-card-pic-text {
     transform: translateY(0);
 }
 
